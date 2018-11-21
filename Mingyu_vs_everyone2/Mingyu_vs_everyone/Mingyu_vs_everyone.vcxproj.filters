@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Datos Abstractos">
+      <UniqueIdentifier>{a21ba806-5129-42ef-af92-57bbc4fd1ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Vectores">
+      <UniqueIdentifier>{df476796-8d22-45b4-816f-8c06bf292ee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Jugadores">
+      <UniqueIdentifier>{295576c8-6b19-4044-8865-5e4c31d845cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Enemigos">
+      <UniqueIdentifier>{d905b1da-5d98-45f3-a86f-5dc52d2fdffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Habilidades">
+      <UniqueIdentifier>{f8b682d6-b665-4fc9-a474-55614900a8f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CJuego.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMovimiento.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CHUD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFondo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoneda.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CNivel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CTrampas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CArbolAVL.h">
+      <Filter>Header Files\Datos Abstractos</Filter>
+    </ClInclude>
+    <ClInclude Include="CCola.h">
+      <Filter>Header Files\Datos Abstractos</Filter>
+    </ClInclude>
+    <ClInclude Include="CVecEnemigo.h">
+      <Filter>Header Files\Vectores</Filter>
+    </ClInclude>
+    <ClInclude Include="CVecFuegoMorado.h">
+      <Filter>Header Files\Vectores</Filter>
+    </ClInclude>
+    <ClInclude Include="CVecFuegoNormal.h">
+      <Filter>Header Files\Vectores</Filter>
+    </ClInclude>
+    <ClInclude Include="CVecMartillo.h">
+      <Filter>Header Files\Vectores</Filter>
+    </ClInclude>
+    <ClInclude Include="CVecMonedas.h">
+      <Filter>Header Files\Vectores</Filter>
+    </ClInclude>
+    <ClInclude Include="CVecTrampas.h">
+      <Filter>Header Files\Vectores</Filter>
+    </ClInclude>
+    <ClInclude Include="CFuegoNormal.h">
+      <Filter>Header Files\Habilidades</Filter>
+    </ClInclude>
+    <ClInclude Include="CFuegoMorado.h">
+      <Filter>Header Files\Habilidades</Filter>
+    </ClInclude>
+    <ClInclude Include="CMartillo.h">
+      <Filter>Header Files\Habilidades</Filter>
+    </ClInclude>
+    <ClInclude Include="CMely.h">
+      <Filter>Header Files\Jugadores</Filter>
+    </ClInclude>
+    <ClInclude Include="CMingyu.h">
+      <Filter>Header Files\Jugadores</Filter>
+    </ClInclude>
+    <ClInclude Include="CPonky.h">
+      <Filter>Header Files\Jugadores</Filter>
+    </ClInclude>
+    <ClInclude Include="CMedina.h">
+      <Filter>Header Files\Enemigos</Filter>
+    </ClInclude>
+    <ClInclude Include="CCanaval.h">
+      <Filter>Header Files\Enemigos</Filter>
+    </ClInclude>
+    <ClInclude Include="CPortal.h">
+      <Filter>Header Files\Habilidades</Filter>
+    </ClInclude>
+    <ClInclude Include="CFondoJuego.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MyForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Abajo.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Arriba.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Derecha.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="EstaticoAbajo.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="EstaticoArriba.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="EstaticoDerecha.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="EstaticoIzquierda.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Fuego.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Izquierda.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Canaval.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Moneda.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Trampa.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
